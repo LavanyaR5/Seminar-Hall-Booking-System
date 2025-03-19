@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Seminar Hall Booking</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Seminar Hall Booking System</h1>
+    </header>
+    <main>
+        <section>
+            <form id="bookingForm">
+                <h2>Student Details</h2>
+                <label for="studentName">Student Name:</label>
+                <input type="text" id="studentName" name="studentName" placeholder="Enter your full name" required>
+                
+                <label for="rollNumber">Roll Number:</label>
+                <input type="text" id="rollNumber" name="rollNumber" placeholder="Enter your roll number" required>
+                
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                
+                <label for="phoneNumber">Phone Number:</label>
+                <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="Enter your phone number" required>
+
+                <h2>Booking Details</h2>
+                <label for="department">Department:</label>
+                <input type="text" id="department" name="department" placeholder="Enter your department" required>
+                
+                <label for="hallName">Hall Name:</label>
+                <input type="text" id="hallName" name="hallName" placeholder="Enter the seminar hall name" required>
+                
+                <label for="date">Booking Date:</label>
+                <input type="date" id="date" name="date" required>
+                
+                <label for="time">Booking Time:</label>
+                <input type="time" id="time" name="time" required>
+                
+                <button type="submit">Book Now</button>
+            </form>
+        </section>
+        <section id="bookingStatus">
+            <h2>Booking Status</h2>
+            <ul id="statusList"></ul>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
+
