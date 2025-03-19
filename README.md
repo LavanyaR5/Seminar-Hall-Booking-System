@@ -1,5 +1,7 @@
 Seminar Hall Booking System
+
 Overview
+
 A web-based system for reserving seminar halls, aimed at simplifying the booking process for students and administrators.
 
 Features
